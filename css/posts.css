@@ -35,17 +35,20 @@ feed-links{clear:both;line-height:2.5em}body{background:#F1F1F1;color:#333;}html
 .ads-side{margin-bottom:5px;text-align:right;max-width:100%;overflow:hidden;height:auto;background: url(http://2.bp.blogspot.com/-KpYXuMRT8cE/Uzbcvdsq9mI/AAAAAAAAJ6w/u1fW59yRHcM/s1600/dot3.png) repeat;padding:15px 5px}.ads-side2{margin-bottom:5px;text-align:center;margin-left:auto;margin-right:auto;max-width:100%;overflow:hidden;height:auto}.ads-side3{margin-bottom:5px;text-align:center;margin-left:auto;margin-right:auto;max-width:100%;overflow:hidden;height:auto;padding:10px 5px 10px 5px;background:url(http://2.bp.blogspot.com/-KpYXuMRT8cE/Uzbcvdsq9mI/AAAAAAAAJ6w/u1fW59yRHcM/s1600/dot3.png) repeat;}
 .ads-top{max-width:100%;margin:0 auto;padding-top:8px;padding-bottom:5px;text-align:center;overflow:hidden;}.ads-post{min-width:0;margin-bottom:5px;max-width:100%;overflow:hidden;max-height:250px;border:0;margin-left:10px;float:right;margin-top:20px}.ads-post img{min-width:0!important;max-width:100%;overflow:hidden;max-height:250px;min-height:0!important;}
 .ads-footer{margin:0 auto;margin-bottom:10px;padding-bottom:10px;text-align: center;overflow:hidden;max-width:100%;}.open{text-align:center;margin-bottom:33px;background:#85FF00;padding:20px 0;text-decoration:none;font:bold 19px 'Segoe UI', arial;color:#1111af;}
-
+@media screen and (max-width:980px){
+.img-pthumb{display:none;}
+}
+@media screen and (min-width:981px){
 .artikel-terkini{margin-top:5px}
 .artikel-terkini ul{max-width:320px;margin:0 auto;}
-.artikel-terkini ul li{padding:0!important;overflow:hidden;width:100%;height:170px;list-style:none;background:#F1F1F1;margin-bottom:10px;}
+.artikel-terkini ul li{padding:0!important;overflow:hidden;width:100%;max-height:170px;list-style:none;background:#F1F1F1;margin-bottom:10px;}
 .artikel-terkini ul li:hover{}
-.img-pthumb{max-height:125px;overflow:hidden;}
+.img-pthumb{min-height:0;max-height:125px;overflow:hidden;}
 .artikel-terkini img{width:300px;height:172px!important;padding:10px 10px 5px;background:#fff;}
 .des-terkini{line-height:1.5em;padding:5px 10px;text-align:left;}
 .des-terkini a{color:#040488;font-weight:bold;font-size:13px;font-family:arial;}
 .des-terkini a:hover{color:#BD00C5}
-
+}
 #sidebar-right ul{margin-top:10px;margin-bottom:10px;}
 #sidebar-right ul li {padding:10px;font:bold .8em sans-serif}
 .box_random{height:auto;width:100%;display:inline-block}.box_random ul li {height:70px;list-style:none;margin-bottom:10px;background:#eee}.box_random ul li a:hover {color:#FF17EC}.box_random img {float:left;width:120px;height:70px!important;height:auto;margin-right:10px;display:inline;}.des-random{font:bold 13px arial;display:inline;}
