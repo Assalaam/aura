@@ -38,7 +38,7 @@ feed-links{clear:both;line-height:2.5em}body{background:#F1F1F1;color:#333;}html
 
 .artikel-terkini{margin-top:5px}
 .artikel-terkini ul{max-width:320px;margin:0 auto;}
-.artikel-terkini ul li{padding:0;overflow:hidden;width:100%;height:170px;list-style:none;background:#F1F1F1;margin-bottom:10px;}
+.artikel-terkini ul li{padding:0!important;overflow:hidden;width:100%;height:170px;list-style:none;background:#F1F1F1;margin-bottom:10px;}
 .artikel-terkini ul li:hover{}
 .img-pthumb{max-height:125px;overflow:hidden;}
 .artikel-terkini img{width:300px;height:172px!important;padding:10px 10px 5px;background:#fff;}
