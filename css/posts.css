@@ -39,12 +39,13 @@ feed-links{clear:both;line-height:2.5em}body{background:#F1F1F1;color:#333;}html
 .img-pthumb{display:none;}
 }
 @media screen and (min-width:981px){
-.artikel-terkini{margin-top:5px}
-.artikel-terkini ul{max-width:320px;margin:0 auto;}
-.artikel-terkini ul li{padding:0!important;overflow:hidden;max-width:300px;max-height:170px;list-style:none;background:#F1F1F1;margin-bottom:10px;}
+.artikel-terkini{margin-top:10px;background:#f7f7f7;}
+.artikel-terkini ul{max-width:300px;margin:0 auto;padding:10px 0;}
+.artikel-terkini ul li{padding:0!important;overflow:hidden;max-width:300px;max-height:170px;list-style:none;background:#E7E7E7;margin-bottom:10px;}
 .artikel-terkini ul li:hover{}
 .img-pthumb{min-height:0;max-height:115px;overflow:hidden;}
 .artikel-terkini img{width:300px;height:172px!important;padding:0px 0px 5px;background:#fff;margin-top:-20px;}
+.artikel-terkini img:hover{opacity:0.8;}
 .des-terkini{line-height:1.5em;padding:5px 10px;text-align:left;}
 .des-terkini a{color:#040488;font-weight:bold;font-size:13px;font-family:arial;}
 .des-terkini a:hover{color:#BD00C5}
