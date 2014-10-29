@@ -1,4 +1,4 @@
-/* Facebook like */ 
+/* Facebook like http://www.aura-ilmu.com/ */ 
 (function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;     js = d.createElement(s);js.id = id;js.async = true;js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=126090824216926&version=v2.0";            fjs.parentNode.insertBefore(js, fjs);}
 (document, 'script', 'facebook-jssdk'));
 /*! jQuery Lazy script * version: 1.0.0 * @requires jQuery v1.5 or later * Copyright (c) 2013 Ravishanker Kusuma * http://hayageek.com/ */
