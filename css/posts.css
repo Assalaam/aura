@@ -107,7 +107,7 @@ h6:hover{color:#BD00C5;}
   #header-wrapper{width:98%;height:auto;margin-top:5px;margin-bottom:5px;min-width:0}
   .pic{max-height:150px}
   .titlewrapper{font-size:23px}
-  #nav-wrap{min-height:30px;background:0;z-index:999;display:block;margin-top:10px}
+  #nav-wrap{min-height:30px;background:0;z-index:999;display:block;margin-top:0px;border-bottom:none;}
   .menu-konten{background:0}
   .menu-konten li{background:#48d}
   .menu-konten li a{font:bold 13px "Arial Narrow",arial;padding:3px 8px}
@@ -276,6 +276,7 @@ pre::before{content:"Click 2x to select all";width:auto;font-size:11px;font-fami
   .post-body img{min-width:90%;max-height:40%;}
   .artikel-terkini ul li{width:100%!important;display:inline-block;padding-right:0;height:70px!important;overflow:hidden}
   .des-terkini{font: bold 13px arial;}
+  .fb_iframe_widget{display:none;}
 }
 @media screen and (max-width:350px){
   #related-posts-image li{width:98%;height:60px;}
