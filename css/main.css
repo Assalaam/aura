@@ -1,6 +1,5 @@
-feed-links{clear:both;line-height:2.5em}
-body{min-height:100%}
-body{background-color:#e9e9e9;color:#333;}
+/* http://www.aura-ilmu.com/ */
+body{min-height:100%;background-color:#e9e9e9;color:#333;}
 html,body,div,span,applet,object,h1,h2,h3,h4,h5,h6,p,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,figure,ul,li{margin:0;padding:0;border:0;font-family:inherit;font-size:100%;vertical-align:baseline;font-style:inherit}
 article,section,aside,hgroup,nav,header,footer,figure,figcaption{display:block}
 a:link{color:#002E63;text-decoration:none}
@@ -83,12 +82,6 @@ h1.date-header{margin:0 0 .5em}
 #sidebar-right{z-index:80;float:left;width:37%;padding-left:1%;word-wrap:break-word;overflow:hidden}
 #sidebar-right ul{list-style:square;padding-left:30px;margin-top:10px;margin-bottom:10px;}
 #sidebar-right ul li {padding:10px 10px 7px 5px;font:.8em sans-serif}
-#rekomendasi {height:19px;padding:10px 0 5px 20px;margin:5px 0; font-family:Arial;font-weight:bold;font-size:15px;color:#A000FA;text-transform:uppercase;text-align: left;border: 1px solid #eaeaea;}
-#randomposts {height:350px;border:0;margin-left:0;margin-bottom:15px;width:auto}
-#randomposts ul{list-style:square;margin:0 0 10px 0;padding:10px 10px 10px 19px}
-#randomposts li{margin:0;border-bottom:1px dotted #dbdbdb;padding:7px 0 7px 0;line-height:1.4em;text-align: left}
-#randomposts a{text-decoration:none;font:bold 15px 'Segoe UI', arial;text-align:left;color:#1111af}
-#randomposts a:hover{color:#00a3ff}
 .sidebar-right1{z-index:80;float:right;width:33%;word-wrap:break-word;overflow:hidden;text-align:center;margin-top:10px;}
 .sidebar1 img{float:left;margin-right:10px;border:0;width:100px}
 .sidebar1 h3{background:#ff039a;color:#fff;font:17px "Arial Narrow",arial;margin:0;padding:5px 0 5px 10px;text-transform:uppercase}
