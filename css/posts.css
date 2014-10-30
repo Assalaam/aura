@@ -262,18 +262,20 @@ pre::before{content:"Click 2x to select all";width:auto;font-size:11px;font-fami
   #main-wrapper{width:99%}
   #sidebar-right{width:99%}
   #sidebar-right1{width:99%}
+  #content-wrapper{min-height:11000px}
 }
 @media screen and (max-width:720px){
   #related-posts-image ul li a{font-size: 12px}
   .post-body img{max-height:70%;}
   .artikel-terkini img{display:none!important;}
-  .figcaption,.keterangan,#menetap{display:none;}
+  .figcaption,.keterangan{display:none;}
   #main-wrapper{width:99%}
   #footer,#footer-bawah,#demoblog,.ads-side2{display:none}
 }
 @media screen and (max-width:420px){
   #related-posts-image li{width: 48%;}
   .post-body img{min-width:90%;max-height:40%;}
+  .ads-post{display:inline;max-height:250px;}
   .artikel-terkini ul li{width:100%!important;display:inline-block;padding-right:0;height:70px!important;overflow:hidden}
   .des-terkini{font: bold 13px arial;}
   .fb_iframe_widget{display:none!important;}
@@ -283,12 +285,11 @@ pre::before{content:"Click 2x to select all";width:auto;font-size:11px;font-fami
 }
 @media screen and (min-width:981px){
   body{height:100%;}
-  body,.box_random ul li{background:url("http://1.bp.blogspot.com/-TYmMHJyah3Q/VDmEbWQcq5I/AAAAAAAAMXI/Wjus2_r_gpw/s200/background.jpg") repeat #f1f1f1;}
+  body,.box_random ul li{background:url(http://1.bp.blogspot.com/-TYmMHJyah3Q/VDmEbWQcq5I/AAAAAAAAMXI/Wjus2_r_gpw/s200/background.jpg) repeat #f1f1f1;}
   #outer-wrapper{box-shadow:10px 0px 15px;margin-top:18px}
-  #content-wrapper{min-height:2150px;background:url("http://4.bp.blogspot.com/-CWUtviLVSBE/VD3Unkkb6NI/AAAAAAAAMcM/GCoTw8H_DEo/s1600/stripeFA.png") repeat #f7f7f7;}
+  #content-wrapper{min-height:3300px;background:url(http://4.bp.blogspot.com/-CWUtviLVSBE/VD3Unkkb6NI/AAAAAAAAMcM/GCoTw8H_DEo/s1600/stripeFA.png) repeat #f7f7f7;}
   #related-posts-image img{height:120px;}
   .ads-side,.ads-side2{text-align:center;background:#f7f7f7;}
-  .ads-post{}
   .post-body img{max-width:100%}
   #main-wrapper{width:62%;min-height:2600px;}
 }
