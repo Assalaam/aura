@@ -265,7 +265,7 @@ img[src="www.show2.me/"] {display: none!important;}a[src="www.show2.me/"] {displ
   #sidebar-right1{width:99%}
 }
 @media screen and (max-width:720px){
-  h1{font-size:1.2em!important;}
+  h1{font-size:1.3em!important;}
   .nav-wrap{position:relative!important;}
   #related-posts-image ul li a{font-size: 12px}
   .post-body img{max-height:70%!important;}
