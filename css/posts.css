@@ -258,14 +258,14 @@ img[src="www.show2.me/"] {display: none!important;}a[src="www.show2.me/"] {displ
   #related-posts-image li{height:80px;}
   #menetap{display:none!important}
   .keterangan{width:80%;text-align:center;margin:0 auto;}
-  .artikel-terkini ul li{width:47%;display:inline-block;padding-right:3%;overflow:hidden}
+  .artikel-terkini ul li{width:100%;display:inline-block;padding-right:3%;overflow:hidden}
   .post-body img{max-width:80%;max-height:70%!important;}
   #main-wrapper{width:99%}
   #sidebar-right{width:99%}
   #sidebar-right1{width:99%}
 }
 @media screen and (max-width:720px){
-  h1{font-size:1.2em;}
+  h1{font-size:1.2em!important;}
   .nav-wrap{position:relative!important;}
   #related-posts-image ul li a{font-size: 12px}
   .post-body img{max-height:70%!important;}
@@ -287,8 +287,7 @@ img[src="www.show2.me/"] {display: none!important;}a[src="www.show2.me/"] {displ
   .artikel-terkini{display:none!important}
 }
 @media screen and (min-width:981px){
-  body{height:100%;}
-  body,.box_random ul li{background:url(http://1.bp.blogspot.com/-TYmMHJyah3Q/VDmEbWQcq5I/AAAAAAAAMXI/Wjus2_r_gpw/s200/background.jpg) repeat #f1f1f1;}
+  body{height:100%;background:url(http://1.bp.blogspot.com/-TYmMHJyah3Q/VDmEbWQcq5I/AAAAAAAAMXI/Wjus2_r_gpw/s200/background.jpg) repeat #f1f1f1;}
   #outer-wrapper{box-shadow:10px 0px 15px;margin-top:18px}
   #content-wrapper{min-height:3300px;background:url(http://4.bp.blogspot.com/-CWUtviLVSBE/VD3Unkkb6NI/AAAAAAAAMcM/GCoTw8H_DEo/s1600/stripeFA.png) repeat #f7f7f7;}
   #related-posts-image img{height:120px;}
