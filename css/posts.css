@@ -255,14 +255,13 @@ pre::before{content:"Click 2x to select all";width:auto;font-size:11px;font-fami
   .viva{display: none!important;}
   #related-posts-image img{display:none}
   #related-posts-image li{height:80px;}
-  #horizontalTab,.artikel-terkini{display:none!important}
+  #horizontalTab,.artikel-terkini,#menetap{display:none!important}
   .keterangan{width:80%;text-align:center;margin:0 auto;}
   .artikel-terkini ul li{width:47%;display:inline-block;padding-right:3%;overflow:hidden}
   .post-body img{max-width:100%;max-height:80%;}
   #main-wrapper{width:99%}
   #sidebar-right{width:99%}
   #sidebar-right1{width:99%}
-  #content-wrapper{min-height:13000px}
 }
 @media screen and (max-width:720px){
   #related-posts-image ul li a{font-size: 12px}
