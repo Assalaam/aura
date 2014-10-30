@@ -119,13 +119,7 @@ h6{color:#666;font-weight:bold;letter-spacing:.2em;line-height:10px;margin:auto;
 .ads-top{max-width:100%;margin:0 auto;padding:0px;text-align:center;overflow:hidden;margin-top:15px}
 .ads-footer{margin:0 auto;margin-bottom:10px;padding-bottom:10px;text-align: center;overflow:hidden;max-width:100%;}
 .ads-top2{margin:0 auto;padding:0px;overflow:hidden;max-width:100%;text-align:center}
-.ads-side-pen{margin-top:15px;text-align:center;display:inline;visibility:visible;position:relative;margin-left:auto;margin-right:auto;}
-.box_random{height:auto;width:100%;margin-top:20px;display:inline-block}
-.box_random ul li {height:70px;list-style:none;margin-bottom:20px;background:#f1f1f1}
-.box_random ul li a:hover {color:#FF17EC}
-.box_random ul li:hover {}
-.box_random img {float:left;width:120px;height:70px!important;height:auto;margin-right:10px;display:inline;}
-.des-random{font:bold 14px arial;display:inline;}
+.ads-side-pen{display:block;margin-bottom:15px;margin-top:15px;text-align:center;visibility:visible;position:relative;margin-left:auto;margin-right:10px;overflow:hidden;padding-top:15px;padding-bottom:10px;}
 .ads-side-left{margin-left:10px;margin-right:15px;float:left;display:inline-block;width:160px;max-width:100%;}
 .ads-side-right{float:left;display:inline-block;width:160px;max-width:100%;}
 .footer-ads{max-height:92px;max-width:100%;border:1px solid #eee;margin:0 250px;position:fixed;bottom:0;}
@@ -216,11 +210,9 @@ img[src="www.show2.me/"] {display: none!important;}a[src="www.show2.me/"] {displ
   .kotak-pencarian{display:none}
   #outer-wrapper{min-width:0;width:98%;margin:0 auto;line-height:normal}
   #content-wrapper{width:auto;margin-top:10px;float:none}
-  .box_skitter{display:none;width:0px;height:0px;}
   #main-wrapper{width:100%;float:left;padding-top:10px;margin:auto;word-wrap:break-word;overflow:hidden}
   .post{width:45%}
   .view{max-height:150px}
-  #sidebar-right{display:none}
   .sidebar-right1{width:50%;}
   #footer{display:none}
   #footer-bawah{width:99%;min-width:0}
@@ -228,9 +220,7 @@ img[src="www.show2.me/"] {display: none!important;}a[src="www.show2.me/"] {displ
   #credit{font:11px Tahoma}
 }
 @media screen and (max-width:450px){
-  .box_skitter_large{display:none;width:0px;height:0px;}
-  .sidebar-right1{width:100%;}
-  .sidebar-right1 img{max-width:100%;}
+  #sidebar-right{display:none}
   .post{width:95%;min-height:280px}
   .pic{max-height:120px}
   .breadcrumbs{display:none}
