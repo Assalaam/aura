@@ -270,16 +270,16 @@ img[src="www.show2.me/"] {display: none!important;}a[src="www.show2.me/"] {displ
   #related-posts-image ul li a{font-size: 12px}
   .post-body img{max-height:70%!important;}
   .artikel-terkini img{display:none!important;}
+  .artikel-terkini ul li{width:100%!important;display:inline-block;padding-right:0;height:30px!important;overflow:hidden}
   .figcaption,.keterangan{display:none;}
   #main-wrapper{width:99%}
   #footer,#footer-bawah,#demoblog,.ads-side2{display:none}
-  .fb_iframe_widget,.breadcrumbs{display:none!important;}
+  .fb_iframe_widget,.breadcrumbs,.footer-ads{display:none!important;}
 }
 @media screen and (max-width:420px){
   #related-posts-image li{width: 48%;}
   .post-body img{min-width:90%;max-height:190px!important;}
   .ads-post{display:inline;max-height:250px!important;}
-  .artikel-terkini ul li{width:100%!important;display:inline-block;padding-right:0;height:70px!important;overflow:hidden}
   .des-terkini{font: bold 13px arial;}
 }
 @media screen and (max-width:350px){
