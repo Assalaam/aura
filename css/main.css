@@ -220,9 +220,11 @@ img[src="www.show2.me/"] {display: none!important;}a[src="www.show2.me/"] {displ
   #credit{font:11px Tahoma}
 }
 @media screen and (max-width:450px){
-  #sidebar-right{display:none}
   .post{width:95%;min-height:280px}
   .pic{max-height:120px}
   .breadcrumbs{display:none}
   #footer-bawah{display:none}
+}
+@media screen and (max-width:319px){
+  #sidebar-right{display:none}
 }
