@@ -88,7 +88,7 @@ h6:hover{color:#BD00C5;}
   #head{width:95%;min-width:0}
   #header-wrapper{width:95%;height:auto;margin-top:10px;margin-bottom:10px;min-width:0}
   .menu-konten{min-height:30px;width:100%;border-bottom:0;min-width:0}
-  .kotak-pencarian{float:left !important}
+  .kotak-pencarian{display:none;}
   #outer-wrapper{min-width:0;width:95%;margin:0 auto;line-height:normal}
   #content-wrapper{width:auto;margin-top:10px}
   #main-wrapper{width:100%;float:left;margin:auto;word-wrap:break-word;overflow:hidden}
@@ -101,7 +101,7 @@ h6:hover{color:#BD00C5;}
   #credit{min-width:0;width:100%}
 }
 @media screen and (max-width:720px){
-  .text-resizer, .scrolltop, .description, .translate,.kotak-pencarian,#Featured-Health, #sidebar-right1, #footer,#creativecommons,#share,#fb-comments,#demoblog{display:none;}
+  .text-resizer, .scrolltop, .description, .translate,#Featured-Health, #sidebar-right1, #footer,#creativecommons,#share,#fb-comments,#demoblog{display:none;}
   #menetap{left:0!important;max-width:100%;}
   #head{width:98%;min-width:0}
   #header-wrapper{width:98%;height:auto;margin-top:5px;margin-bottom:5px;min-width:0}
