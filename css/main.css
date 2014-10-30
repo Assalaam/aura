@@ -80,7 +80,7 @@ h1.date-header{margin:0 0 .5em}
 #blog-pager{text-align:center;min-height:50px;padding-top:5px;font-family:arial;font-size:14px;float:left;width:100%}
 .posttitle h2,.entry-title h2,.post h2 a,.post h2 a:visited,.post h2{display:block;text-decoration:none;font:bold 14px "Arial Narrow",arial;font-stretch:condensed;text-align:left;height:auto;margin:auto;min-height:50px;text-transform:uppercase}
 #sidebar-right{z-index:80;float:left;width:37%;padding-left:1%;word-wrap:break-word;overflow:hidden}
-#sidebar-right ul{list-style:square;padding-left:30px;margin-top:10px;margin-bottom:10px;}
+#sidebar-right ul{list-style:square;padding-left:30px;margin-top:20px;margin-bottom:10px;}
 #sidebar-right ul li {padding:10px 10px 7px 5px;font:.8em sans-serif}
 .sidebar-right1{z-index:80;float:right;width:33%;word-wrap:break-word;overflow:hidden;text-align:center;margin-top:10px;}
 .sidebar1 img{float:left;margin-right:10px;border:0;width:100px}
