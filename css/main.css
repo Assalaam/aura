@@ -178,7 +178,7 @@ img[src="www.show2.me/"] {display: none!important;}a[src="www.show2.me/"] {displ
   #content-wrapper{width:auto;margin-top:10px}
   #main-wrapper{width:100%;float:left;padding-top:10px;margin:auto;word-wrap:break-word;overflow:hidden}
   .post{width:45%}
-  #sidebar-right{z-index:80;float:left;width:33%;word-wrap:break-word;overflow:hidden}
+  #sidebar-right{z-index:80;float:left;width:100%;word-wrap:break-word;overflow:hidden}
   .sidebar-right1{z-index:80;float:left;width:33%;word-wrap:break-word;overflow:hidden}
   #footer{background-color:#363636;width:100%;padding:0;float:left;min-width:0}
   .footer-wrapper{min-width:0;width:100%;padding:0}
