@@ -274,7 +274,7 @@ pre::before{content:"Click 2x to select all";width:auto;font-size:11px;font-fami
 }
 @media screen and (max-width:420px){
   #related-posts-image li{width: 48%;}
-  .post-body img{min-width:90%;max-height:200px;}
+  .post-body img{min-width:90%;max-height:190px!important;}
   .ads-post{display:inline;max-height:250px!important;}
   .artikel-terkini ul li{width:100%!important;display:inline-block;padding-right:0;height:70px!important;overflow:hidden}
   .des-terkini{font: bold 13px arial;}
