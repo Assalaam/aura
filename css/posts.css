@@ -258,19 +258,19 @@ pre::before{content:"Click 2x to select all";width:auto;font-size:11px;font-fami
   #horizontalTab,.artikel-terkini,#menetap{display:none!important}
   .keterangan{width:80%;text-align:center;margin:0 auto;}
   .artikel-terkini ul li{width:47%;display:inline-block;padding-right:3%;overflow:hidden}
-  .post-body img{max-width:100%;max-height:80%;}
+  .post-body img{max-width:80%;max-height:70%!important;}
   #main-wrapper{width:99%}
   #sidebar-right{width:99%}
   #sidebar-right1{width:99%}
 }
 @media screen and (max-width:720px){
   #related-posts-image ul li a{font-size: 12px}
-  .post-body img{max-height:70%;}
+  .post-body img{max-height:70%!important;}
   .artikel-terkini img{display:none!important;}
   .figcaption,.keterangan{display:none;}
   #main-wrapper{width:99%}
   #footer,#footer-bawah,#demoblog,.ads-side2{display:none}
-  .fb_iframe_widget{display:none!important;}
+  .fb_iframe_widget,.breadcrumbs{display:none!important;}
 }
 @media screen and (max-width:420px){
   #related-posts-image li{width: 48%;}
