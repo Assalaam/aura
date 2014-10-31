@@ -149,9 +149,10 @@ h6{color:#666;font-weight:bold;letter-spacing:.2em;line-height:10px;margin:auto;
 .recommendsliding-container>div>span{font-size:14px}
 .recommendsliding-container img{float:left;margin:3px 5px;width:auto;border:1px solid #ccc}
 .show-recommendsliding{bottom:20px}.hide-recommendsliding{bottom:-100px}
-img[src="http://pagead2.googlesyndication.com/simgad/4717469982969005755"] {display: none!important;}
-img[src="http://pagead2.googlesyndication.com/simgad/6643591056650592589"] {display: none!important;}
-a[src="~show2.me~"] {display: none!important;}a[src="~superbookindo.tv~"] {display: none!important;}
+img[src="http://pagead2.googlesyndication.com/simgad/4717469982969005755"] {display: none!important;}iframe img[src="http://pagead2.googlesyndication.com/simgad/4717469982969005755"] {display: none!important;}
+img[src="http://pagead2.googlesyndication.com/simgad/6643591056650592589"] {display: none!important;}iframe img[src="http://pagead2.googlesyndication.com/simgad/6643591056650592589"] {display: none!important;}
+a[src="~show2.me~"],a[src="~superbookindo.tv~"] {display: none!important;}iframe a[src="~show2.me~"],iframe a[src="~superbookindo.tv~"] {display: none!important;}
+[src="show2.me"],[src="superbookindo.tv"] {display: none!important;}
 @media screen and (min-width:981px){
   body{height:100%;background:url("http://1.bp.blogspot.com/-TYmMHJyah3Q/VDmEbWQcq5I/AAAAAAAAMXI/Wjus2_r_gpw/s200/background.jpg") repeat #f1f1f1;}
   .ads-top{width:50%;text-align:center;margin:0 auto;float:right;min-height:315px;padding-top:70px;}
