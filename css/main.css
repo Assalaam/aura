@@ -26,7 +26,7 @@ a img{border:0;transition:all 400ms ease-in-out}
 .telusuri .searchbutton{border:0;font-size:13px;height:23px;width:auto;margin-top:2px;padding:0 27px;cursor:pointer;vertical-align:top;float:right;background:#b0ff08}
 .searchbutton:hover{background:#bdfff7}
 #head{z-index:999;width:100%;margin:0 auto;background:transparent;}
-#header-wrapper{width:85%;height:120px;margin:0 auto;max-width:1111px;min-width:935px}
+#header-wrapper{width:85%;height:110px;margin:0 auto;max-width:1111px;min-width:935px}
 #header{font-weight:normal;margin:auto;height:auto}
 .headerleft{width:30%;min-height:90px;float:left;}
 .headerright{width:70%;min-height:90px;float:left;}
@@ -119,7 +119,7 @@ h6{color:#666;font-weight:bold;letter-spacing:.2em;line-height:10px;margin:auto;
 .ads-top{max-width:100%;margin:0 auto;padding:0px;text-align:center;overflow:hidden;margin-top:15px}
 .ads-footer{margin:0 auto;margin-bottom:10px;padding-bottom:10px;text-align: center;overflow:hidden;max-width:100%;}
 .ads-top2{margin:0 auto;padding:0px;overflow:hidden;max-width:100%;text-align:center}
-.ads-side-pen{background:#f7f7f7;display:block;margin-bottom:15px;margin-top:15px;text-align:center;visibility:visible;position:relative;margin-left:auto;margin-right:10px;overflow:hidden;padding-top:15px;padding-bottom:10px;}
+.ads-side-pen{background:#f7f7f7;display:block;margin-bottom:15px;margin-top:15px;text-align:center;visibility:visible;position:relative;margin-left:auto;margin-right:10px;overflow:hidden;padding-top:10px;padding-bottom:10px;}
 .ads-side-left{margin-left:10px;margin-right:15px;float:left;display:inline-block;width:160px;max-width:100%;}
 .ads-side-right{float:left;display:inline-block;width:160px;max-width:100%;}
 .footer-ads{max-height:92px;max-width:100%;border:1px solid #eee;margin:0 250px;position:fixed;bottom:0;}
