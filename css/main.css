@@ -153,6 +153,7 @@ img[src="www.show2.me"] {display: none!important;}a[src="www.show2.me"] {display
 img[src="superbookindo.tv"] {display: none!important;}a[src="superbookindo.tv"] {display: none!important;}
 @media screen and (min-width:981px){
   body{height:100%;background:url("http://1.bp.blogspot.com/-TYmMHJyah3Q/VDmEbWQcq5I/AAAAAAAAMXI/Wjus2_r_gpw/s200/background.jpg") repeat #f1f1f1;}
+  .ads-top{width:50%;text-align:center;margin:0 auto;float:right;min-height:315px;padding-top:70px;}
   .ads-footer{max-width:468px;margin:0 auto;}
   .view-seventh img{-webkit-transition:all .4s ease-in-out .5s;-moz-transition:all .4s ease-in-out .5s;-o-transition:all .4s ease-in-out .5s;-ms-transition:all .4s ease-in-out .5s;transition:all .4s ease-in-out .5s}
   .view-seventh .mask{background-color:rgba(146,96,91,0.5);-ms-filter:"alpha(opacity=0)";filter:alpha(opacity=0);opacity:0;-webkit-transition:all .3s ease-in .4s;-moz-transition:all .3s ease-in .4s;-o-transition:all .3s ease-in .4s;-ms-transition:all .3s ease-in .4s;transition:all .3s ease-in .4s}
