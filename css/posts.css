@@ -1558,6 +1558,17 @@ pre .cl {
     height: auto;
     min-height: 0;
 }
+    .site_title {
+    color: #3acffe;
+    background-image: none;
+    -webkit-background-clip: inherit;
+    -webkit-text-fill-color: inherit;
+    -webkit-animation: inherit;
+}
+    .site_title a {
+    color: #2D34D8;    
+}
+}
 .headerright img {
     max-width: 100%}
 #facebooklike {
