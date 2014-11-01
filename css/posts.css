@@ -1553,6 +1553,12 @@ pre .cl {
     background: #aa00d5;
 }
 @media screen and (max-width:980px) {
+    .site_title {
+        background-image:none;-webkit-background-clip:initial;-webkit-text-fill-color:initial;-webkit-animation:initial
+}
+    .site_title a {
+    color:#2d34d8
+}
     .headerleft, .headerright {
     width: 100%;
     height: auto;
