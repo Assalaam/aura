@@ -1599,8 +1599,9 @@ pre .cl {
     overflow: hidden;
 }
 .post-body img {
-    max-width: 80%;
+    max-width: 85%;
     max-height: 70% !important;
+    margin-bottom:15px;
 }
 #main-wrapper {
     width: 99%}
@@ -1616,7 +1617,7 @@ pre .cl {
     position: relative !important;
 }
 #related-posts-image ul li a {
-    font-size: 12px;
+    font-size: 13px;
 }
 .post-body {
     font-size: 1em;
@@ -1648,8 +1649,8 @@ pre .cl {
 }@media screen and (max-width:420px) {
     #related-posts-image li {
     width: 48%}
-.post-body img {
-    min-width: 90%;
+    .post-body img {
+    min-width: 95%;
     max-height: 190px !important;
 }
 .ads-post {
@@ -1662,7 +1663,7 @@ pre .cl {
 }@media screen and (max-width:350px) {
     #related-posts-image li {
     width: 98%;
-    height: 60px;
+    height: 45px;
 }
 .artikel-terkini {
     display: none !important;
