@@ -1603,10 +1603,14 @@ pre .cl {
 #sidebar-right1 {
     width: 99%}
 }@media screen and (max-width:720px) {
+    #sidebar-right ul li {
+    font: bold .9em sans-serif;
+}
     h1 {
     font-size: 1.3em !important;
 }
 .nav-wrap {
+    min-height:45px;
     position: relative !important;
 }
 #related-posts-image ul li a {
@@ -1640,13 +1644,17 @@ pre .cl {
     display: none !important;
 }
 }@media screen and (max-width:420px) {
+    #nav-wrap {
+    min-height:55px;    
+}
     #related-posts-image li {
     width: 48%;
     height: 50px;  
 }
 .post-body img {
-    min-width: 90%;
+    min-width: 95%;
     max-height: 190px !important;
+    margin-bottom: 15px;
 }
 .ads-post {
     display: inline;
