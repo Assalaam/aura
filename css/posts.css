@@ -1621,6 +1621,7 @@ pre .cl {
 }
 .post-body img {
     max-width: 85%;
+    margin-bottom: 15px;
 }
 .artikel-terkini img {
     display: none !important;
@@ -1654,7 +1655,6 @@ pre .cl {
 .post-body img {
     min-width: 95%;
     max-height: 190px !important;
-    margin-bottom: 15px;
 }
 .ads-post {
     display: inline;
