@@ -1147,6 +1147,15 @@ h6 {
     transition-delay: .3s;
 }
 }@media screen and (max-width:980px) {
+    .site_title {
+    background-image: none;
+    -webkit-background-clip: inherit;
+    -webkit-text-fill-color: inherit;
+    -webkit-animation: inherit;
+}
+    .site_title a {
+    color: #2D34D8;    
+}
     #blog-pager {
     margin-top: 20px;
 }
