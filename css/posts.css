@@ -6,13 +6,13 @@ body{background:#f1f1f1;color:#333}html,body,div,span,applet,object,h1,h2,h3,h4,
     background: #fff;
     float: right;
     max-width: 300px;
-    margin-left: 20px
+    margin-left: 15px
 }
 .artikel-terkini-side ul {
     max-width: 300px;
     margin: 0 auto;
-    padding: 23px 0;
-    max-height: 205px
+    padding: 0;
+    max-height: 600px
 }
 .artikel-terkini-side ul li {
     padding: 0 !important;
