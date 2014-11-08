@@ -5,8 +5,8 @@ body{background:#f1f1f1;color:#333}html,body,div,span,applet,object,h1,h2,h3,h4,
     margin-top: 10px;
     background: #cdf9ff;
     float: right;
-    width: 300px;
-    margin-right: 20px
+    max-width: 300px;
+    margin-leftt: 20px
 }
 .artikel-terkini-side ul {
     max-width: 300px;
