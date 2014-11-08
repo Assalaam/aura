@@ -3,10 +3,10 @@ body{background:#f1f1f1;color:#333}html,body,div,span,applet,object,h1,h2,h3,h4,
 .artikel-terkini-post{margin-top:10px;background:#cdf9ff;float:left;width:300px;margin-right:20px}.artikel-terkini-post ul{max-width:300px;margin:0 auto;padding:23px 0;max-height:205px}.artikel-terkini-post ul li{padding:0 !important;overflow:hidden;max-width:300px;max-height:230px;list-style:none;background:#e7e7e7;margin-bottom:10px}.img-pthumb-post{min-height:0;max-height:220px;overflow:hidden}.artikel-terkini-post img{width:300px;height:172px !important;padding:0 0 5px;background:#fff;margin-top:-20px}.artikel-terkini-post img:hover{opacity:.8}.des-terkini-post{line-height:1.5em;padding:5px 10px;text-align:left}.des-terkini-post a{color:#040488;font-weight:bold;font-size:13px;font-family:arial}.des-terkini-post a:hover{color:#bd00c5}
 .artikel-terkini-side {
     margin-top: 10px;
-    background: #cdf9ff;
+    background: #fff;
     float: right;
     max-width: 300px;
-    margin-leftt: 20px
+    margin-left: 20px
 }
 .artikel-terkini-side ul {
     max-width: 300px;
