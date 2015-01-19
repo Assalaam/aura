@@ -41,7 +41,7 @@ body{min-height:100%;background-color:#e9e9e9;color:#333}html,body,div,span,appl
 #menu li a{color:#ccc}
 #menu a{display:block;line-height:35px;padding:0 14px;text-decoration:none;color:#333;}
 #menu li:hover > a,#menu li a:hover{color:#fff}
-#menu input{display:none;margin:0 0;padding:0 0;width:80px;height:35px;opacity:0;cursor:pointer}
+#menu input{display:none;margin:0 0;padding:0 0;width:100%;height:35px;opacity:0;cursor:pointer}
 #menu label{font:bold 30px Arial;display:none;width:35px;height:36px;line-height:36px;text-align:center}
 #menu label span{font-size:13px;position:absolute;left:35px}
 #menu ul.menus{height:auto;overflow:hidden;width:180px;background:#fff;position:absolute;z-index:99;display:none;border:1px solid #ccc;border-top:none;color:#333}
