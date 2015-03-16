@@ -38,7 +38,7 @@ body{background:#fff;color:#333;max-width:100%;}html,body,div,span,applet,object
 .comment-delete img{float:right;margin-left:15px;margin-top:3px;margin-right:10px}.comment_author_flag{display:none}.comment_admin .comment_author_flag{display:inline;font-size:13px;font-weight:normal;padding:2px 6px;right:-23px;margin-top:-23px;color:#fff;border-radius:4px;text-transform:uppercase;position:absolute;width:36px;height:36px}.comments pre{margin:5px;height:120px;overflow:auto;background:#333;color:#fff;padding:5px;max-width:100%}.comment_inner pre{margin:5px;height:120px;overflow:auto;background:#333;color:#fff;padding:5px;max-width:100%}
 }
 @media screen and (min-width:1025px){.ads-side-left{margin-left:20px;margin-right:30px}.artikel-terkini-post{margin-right:20px}}
-@media screen and (min-width:1200px){.desk3{margin-right:10px;display:inline-block;}.desk4{margin-left:10px;display:inline-block;}.footer-ads{width:732px;left:6%;margin:0;}}
+@media screen and (min-width:1200px){.des-terkini a{font-size:15px;}.desk3{margin-right:10px;display:inline-block;}.desk4{margin-left:10px;display:inline-block;}.footer-ads{width:732px;left:6%;margin:0;}}
 @media screen and (min-width:1300px){#outer-wrapper{max-width:1234px;width:91%;}#video-container img{margin-top:-85px}.ads-side-left{margin-left:25px;margin-right:40px}}
 @media screen and (min-width:1400px){.footer-ads{left:9%}}
 @media screen and (min-width:1500px){.footer-ads{width:100%;left:50%;margin: 0 0 0 -50%}}
