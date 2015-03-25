@@ -45,6 +45,6 @@ body{background:#fff;color:#333;max-width:100%;}html,body,div,span,applet,object
 @media screen and (min-width:1300px){#outer-wrapper{max-width:1234px;width:91%;}#video-container img{margin-top:-85px}.ads-side-left{margin-left:25px;margin-right:40px}}
 @media screen and (min-width:1400px){.footer-ads{left:9%}}
 @media screen and (min-width:1500px){.footer-ads{width:100%;left:50%;margin: 0 0 0 -50%}}
-.lazy{}
+.lazy{}.no-js img.lazy {display:none;}
 .lazyloading {background:#eee url(http://2.bp.blogspot.com/-kzxrrvbwn0A/UxX04QAfWII/AAAAAAAAJlI/wLyYzOSNnwE/s1600/loading.gif) no-repeat 50% 50%;opacity:1;}
 .lazyloaded {opacity:1;transition: opacity 300ms;}
