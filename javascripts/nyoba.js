@@ -1,8 +1,1 @@
-epmads_key = "6301df1267f602722b4ecb029da0c8ef";
-epmads_channel = "";
-epmads_code_format = "ads-sync.js";
-epmads_ads_host = "//ecpmrocks.com";
-epmads_click = "";
-epmads_custom_params = {};
-
-document.write("<script type='text\/javascript' src='"+(location.protocol == 'https:' ? 'https:' : 'http:') + "//ecpmrocks.com\/js/show_ads_epmads.js?pubId=7363'><\/script>");
+(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;js.async=true; js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=126090824216926"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));
