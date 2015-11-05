@@ -1,1 +1,12 @@
-(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;js.async=true; js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=126090824216926"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));
+var homePage = '',maxResults=10,containerId='randomposts';
+function getRandomInt(min, max) {return Math.floor(Math.random() * (max - min + 1)) + min;}
+function shuffleArray(arr) {var i = arr.length, j, temp;if (i === 0) return false;while (--i) {j = Math.floor(Math.random() * (i + 1));temp = arr[i];arr[i] = arr[j];arr[j] = temp;}
+return arr;}
+function createRandomPostsStartIndex(json) {var startIndex = getRandomInt(1, (json.feed.openSearch$totalResults.$t - maxResults));
+// console.log('Get the post feed start from ' + startIndex + ' until ' + (startIndex + maxResults));
+document.write('<scr' + 'ipt src="' + homePage + '/feeds/posts/summary?alt=json-in-script&orderby=updated&start-index=' + startIndex + '&max-results=' + maxResults + '&callback=randomPosts"></scr' + 'ipt>');}
+function randomPosts(json) {var link, ct = document.getElementById(containerId),entry = shuffleArray(json.feed.entry),skeleton = "<ul>";
+for (var i = 0, len = entry.length; i < len; i++) {for (var j = 0, jen = entry[i].link.length; j < jen; j++) {link = (entry[i].link[j].rel == "alternate") ? entry[i].link[j].href : '#';}
+skeleton += '<li><h5><a href="' + link + '">' + entry[i].title.$t + '</a></h5></li>';}
+ct.innerHTML = skeleton + '</ul>';}
+document.write('<scr' + 'ipt src="/feeds/posts/summary?alt=json-in-script&max-results=0&callback=createRandomPostsStartIndex"></scr' + 'ipt>');
